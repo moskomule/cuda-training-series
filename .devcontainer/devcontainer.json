@@ -1,7 +1,6 @@
 {
         "name": "cuda",
         "image": "nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04",
-        "remoteUser": "vscode",
         "extensions": [
                 "ms-vscode.cpptools",
         ],
