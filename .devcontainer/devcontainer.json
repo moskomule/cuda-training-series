@@ -1,8 +1,10 @@
 {
         "name": "cuda",
-        "image": "nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04",
+        "build": {
+                "dockerfile": "Dockerfile"
+        },
         "extensions": [
-                "ms-vscode.cpptools",
+                "llvm-vs-code-extensions.vscode-clangd"
         ],
         "settings": {
                 "terminal.integrated.shell.linux": "/bin/bash"
